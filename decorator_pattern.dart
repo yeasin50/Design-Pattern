@@ -58,24 +58,14 @@ class Expreso implements Beverage {
 
 main() {
   //* we can format description in many ways
-  List<String> description = [];
-  Expreso expreso = Expreso();
 
-  description.add("expreso: ${expreso.cost()}");
+  //* creating a beverage of type Expreso,
+  Beverage beverage = Expreso(); // 4
 
-  /// adding addons
-  CaramelDecorator caramelDecorator = CaramelDecorator(beverage: expreso);
-  description.add("caramel1: ${caramelDecorator.price}");
-  CaramelDecorator caramelDecorator2 =
-      CaramelDecorator(beverage: caramelDecorator);
-  description.add("caramel2: ${caramelDecorator2.price}");
+  // adding addons
+  beverage = CaramelDecorator(beverage: beverage); // 4 + 2
+  beverage = XDecorator(beverage: beverage); // 4 + 2 + 1
+  beverage = CaramelDecorator(beverage: beverage); // 4 + 2 + 1 + 2
 
-  XDecorator xDecorator = XDecorator(beverage: caramelDecorator2);
-  description.add("xDecorator: ${xDecorator.price}");
-
-  print(caramelDecorator.cost());
-  print(caramelDecorator2.cost());
-  print(xDecorator.cost());
-
-  print(description.toString());
+  print(beverage.cost());
 }
