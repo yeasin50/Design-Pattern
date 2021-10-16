@@ -14,4 +14,5 @@ decorates to do the rest of the job
 - [Single pattern](singleton_pattern.dart) : always one and onle One
 - [Command pattern](command_pattern.dart) : nice way to handle execution -_ )
 - [Adapter pattern](adapter_pattern.dart): adaptatoin help to use x at y 🤣
+- [Facade Pattern](facade_pattern.dart.dart): higher level interface helps to subsystem easier to use
   
