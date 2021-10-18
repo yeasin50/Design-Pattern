@@ -16,6 +16,8 @@ decorates to do the rest of the job
 - [x] [Command Pattern](command_pattern.dart) : nice way to handle execution -\_ )
 - [x] [Adapter Pattern](adapter_pattern.dart): adaptatoin help to use x at y 🤣
 - [x] [Facade Pattern](facade_pattern.dart.dart): higher level interface helps to subsystem easier to use
+- [ ] [Proxy Pattern]()  
+- [ ] [Bridge Pattern]()
 - [ ] [Template Method Pattern](w)
 - [ ] [Composite Pattern]()
 - [ ] [Iterator Pattern]()
