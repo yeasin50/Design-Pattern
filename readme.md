@@ -23,7 +23,7 @@ to run `dart file-name.dart`
 
 - [x] [Bridge Pattern](bridge_pattern.dart) : Platform specific to platform independent
 
-- [ ] [Template Method Pattern](w) :Composition should be favored over inheritance
+- [ ] [Template Method Pattern](template_method_pattern.dart) : like wrapper and overriding values of inner method
 
 - [ ] [Composite Pattern]()
 
