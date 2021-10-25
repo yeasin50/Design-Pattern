@@ -23,9 +23,9 @@ to run `dart file-name.dart`
 
 - [x] [Bridge Pattern](bridge_pattern.dart) : Platform specific to platform independent
 
-- [ ] [Template Method Pattern](template_method_pattern.dart) : like wrapper and overriding values of inner method
+- [x] [Template Method Pattern](template_method_pattern.dart) : like wrapper and overriding values of inner method
 
-- [ ] [Composite Pattern]()
+- [x] [Composite Pattern](composite_pattern.dart) : SubTask of Task, like tree can have xtime child,
 
 - [ ] [Iterator Pattern]()
 
